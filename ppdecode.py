@@ -6,9 +6,14 @@ class ppdecode(object):
         self._decodeurl, url
         self.arguments = urlparse.parse_qs(urlparse.urlparse(url).query)
         self.url = self._decodeurl()
+        self._parse()
 
     def _decodeurl(self):
         tmp = self.arguments['u'][0].replace("_","/")
         for x in list(set(re.findall('-[0-9A-F]{2,2}', tmp))):
             tmp = tmp.replace(x,chr(int(x[1:3],16)))
         return tmp
+
+    def _parse(self):
+        self.recipient = self.arguments['r'][0]
+        self.site = self.arguments['c'][0]
