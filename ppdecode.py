@@ -14,5 +14,11 @@ class ppdecode(object):
         return tmp
 
     def _parse(self):
-        self.recipient = self.arguments['r'][0]
-        self.site = self.arguments['c'][0]
+        if 'r' in self.arguments:
+            self.recipient = self.arguments['r'][0]
+        if 'c' in self.arguments:
+            self.site = self.arguments['c'][0]
+        # d - appliance?
+        # m - message id?
+        # s - ?
+        # k - ?
