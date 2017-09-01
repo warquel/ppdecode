@@ -1,7 +1,7 @@
 # ppdecode
 Proofpoint URL Decoder
 
-Just a quick and dirty proofpoint Follow Me URL rewrite decoder.
+Just a quick and simple proofpoint Follow Me URL rewrite decoder.
 
 ```
 Usage: ppdecode.py [-h] [-j] [-a] [-v] URL
