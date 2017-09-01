@@ -17,3 +17,11 @@ optional arguments:
   -a, --all      Print all Proofpoint parameters.
   -v, --version  show program's version number and exit
 ```
+
+The ppdecode function is also importable into other code:
+
+```
+import ppdecode
+
+results = ppdecode.ppdecode(url)
+```
