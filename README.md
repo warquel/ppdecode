@@ -3,6 +3,7 @@ Proofpoint URL Decoder
 
 Just a quick and dirty proofpoint Follow Me URL rewrite decoder.
 
+```
 Usage: ppdecode.py [-h] [-j] [-a] [-v] URL
 
 Decode Proofpoint URLDefense encoded URL.
@@ -15,3 +16,4 @@ optional arguments:
   -j, --json     Output JSON rather than text.
   -a, --all      Print all Proofpoint parameters.
   -v, --version  show program's version number and exit
+```
