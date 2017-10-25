@@ -13,6 +13,6 @@ setup(
     install_requires=[],
     entry_points='''
         [console_scripts]
-        ppdecode=ppdecode.ppdecode:main
+        ppdecode=ppdecode:main
     '''
 )
