@@ -5,7 +5,7 @@ from setuptools import setup
 setup(
     name='ppdecode',
     version='1.0.0',
-    url='https://github.com/spyoungtech/ppdecode.git',
+    url='https://github.com/warquel/ppdecode.git',
     author='warquel',
     description='Proofpoint URL Decoder',
     packages=['ppdecode'],
