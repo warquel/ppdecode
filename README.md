@@ -1,10 +1,16 @@
 # ppdecode
 Proofpoint URL Decoder
 
+## Installation
+
+```
+pip install git+https://github.com/warquel/ppdecode.git
+```
+
 Just a quick and simple proofpoint Follow Me URL rewrite decoder.
 
 ```
-Usage: ppdecode.py [-h] [-j] [-a] [-v] URL
+Usage: ppdecode [-h] [-j] [-a] [-v] URL
 
 Decode Proofpoint URLDefense encoded URL.
 
